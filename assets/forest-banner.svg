@@ -1,43 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
-<title id="title">João Paulo — Forest developer</title>
-<desc id="desc">A refined forest-inspired developer banner in deep green, moss, copper and parchment tones.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="390" viewBox="0 0 1280 390">
 <defs>
-  <linearGradient id="base" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101f19"/><stop offset=".52" stop-color="#1c3528"/><stop offset="1" stop-color="#34291f"/></linearGradient>
-  <radialGradient id="glow"><stop stop-color="#b27b4c" stop-opacity=".24"/><stop offset="1" stop-color="#b27b4c" stop-opacity="0"/></radialGradient>
-  <linearGradient id="ridge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#53694a"/><stop offset="1" stop-color="#20392b"/></linearGradient>
-  <pattern id="grain" width="90" height="90" patternUnits="userSpaceOnUse"><circle cx="8" cy="12" r="1" fill="#e8d9bc" opacity=".14"/><circle cx="54" cy="38" r=".8" fill="#e8d9bc" opacity=".12"/><circle cx="27" cy="72" r=".7" fill="#e8d9bc" opacity=".1"/></pattern>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b211b"/><stop offset=".52" stop-color="#19372a"/><stop offset="1" stop-color="#493727"/></linearGradient>
+ <linearGradient id="sun" x2="0" y2="1"><stop stop-color="#e2bd83" stop-opacity=".85"/><stop offset="1" stop-color="#bd8658" stop-opacity=".08"/></linearGradient>
+ <linearGradient id="mist" x2="0" y2="1"><stop stop-color="#d8c6a4" stop-opacity=".18"/><stop offset="1" stop-color="#d8c6a4" stop-opacity="0"/></linearGradient>
+ <pattern id="grain" width="90" height="90" patternUnits="userSpaceOnUse"><circle cx="8" cy="12" r="1" fill="#f1dfc1" opacity=".12"/><circle cx="58" cy="43" r=".8" fill="#f1dfc1" opacity=".1"/><circle cx="32" cy="76" r=".7" fill="#f1dfc1" opacity=".1"/></pattern>
 </defs>
-<rect width="1200" height="390" rx="24" fill="url(#base)"/>
-<rect width="1200" height="390" rx="24" fill="url(#grain)"/>
-<circle cx="940" cy="115" r="250" fill="url(#glow)"/>
-<g opacity=".48" fill="none" stroke="#b78a5e">
- <path d="M780 0v390M840 0v390M900 0v390M960 0v390M1020 0v390M1080 0v390M1140 0v390" stroke-opacity=".08"/>
- <path d="M760 70c90-52 188-52 280 0M760 115c90-52 188-52 280 0M760 160c90-52 188-52 280 0" stroke-opacity=".16"/>
+<rect width="1280" height="390" rx="24" fill="url(#bg)"/>
+<circle cx="1010" cy="126" r="86" fill="url(#sun)"/>
+<circle cx="1010" cy="126" r="62" fill="#d6b17c" opacity=".10"/>
+<path d="M0 265 Q170 180 350 255 T720 236 T1280 210 V390 H0Z" fill="#304c38"/>
+<path d="M0 300 Q210 215 430 290 T840 260 T1280 255 V390 H0Z" fill="#203d2d"/>
+<path d="M0 340 Q190 270 390 325 T780 304 T1280 292 V390 H0Z" fill="#142e24"/>
+<path d="M0 270 Q250 230 500 272 T980 250 T1280 235" stroke="#b4a17c" stroke-opacity=".18" stroke-width="2" fill="none"/>
+<path d="M0 308 Q260 268 490 308 T960 292 T1280 276" stroke="#c9b18a" stroke-opacity=".13" stroke-width="2" fill="none"/>
+<!-- distant pine silhouettes -->
+<g fill="#10291f" opacity=".9">
+ <path d="M780 280l48-110 48 110h-29l42 62H767l42-62z"/>
+ <path d="M905 286l38-90 38 90h-23l34 51h-98l34-51z"/>
+ <path d="M1110 276l55-130 55 130h-34l48 70h-138l48-70z"/>
+ <path d="M1190 294l33-78 33 78h-20l28 43h-102l28-43z"/>
 </g>
-<g fill="#263f2e" opacity=".95">
- <path d="M760 390V206l-42 42 42-98 42 98-42-42v184z"/>
- <path d="M860 390V155l-52 58 52-128 52 128-52-58v235z"/>
- <path d="M1035 390V180l-46 51 46-116 46 116-46-51v210z"/>
- <path d="M1130 390V215l-35 40 35-92 35 92-35-40v175z"/>
+<!-- foreground branch -->
+<g fill="none" stroke="#9a714b" stroke-width="4" stroke-linecap="round" opacity=".85">
+ <path d="M1190 0q-36 76-16 140t-18 104"/>
+ <path d="M1178 80q-47-38-69-21M1180 112q40-43 67-35M1171 162q-42-26-66-13"/>
 </g>
-<path d="M0 300C180 245 315 292 470 270s255-86 410-42 210 27 320-10v172H0Z" fill="#2d4934"/>
-<path d="M0 330c190-53 300-6 470-28s290-61 430-20 205 24 300-8v116H0Z" fill="url(#ridge)"/>
-<path d="M0 360c180-34 300-3 480-22s300-32 430-8 205 13 290-8v68H0Z" fill="#172c21"/>
-<g transform="translate(90 82)">
- <path d="M0 0h44" stroke="#bd9568" stroke-width="2"/>
- <text x="58" y="6" fill="#c8a77f" font-family="Arial,sans-serif" font-size="13" letter-spacing="4">PORTFÓLIO • DESENVOLVIMENTO WEB</text>
- <text x="0" y="93" fill="#f1e8d7" font-family="Georgia,serif" font-size="68" font-weight="bold" letter-spacing="-2">João Paulo</text>
- <text x="3" y="137" fill="#d6b68b" font-family="Arial,sans-serif" font-size="20" letter-spacing="2.2">WEB DEVELOPER IN PROGRESS</text>
- <path d="M2 165h350" stroke="#b27b4c" stroke-width="1.5" opacity=".8"/>
- <text x="2" y="201" fill="#e1dfd2" font-family="Arial,sans-serif" font-size="17">Código, criatividade e crescimento contínuo.</text>
+<g fill="#b77d4f" opacity=".9">
+ <path d="M1102 58q-28-22-9-39q8 18 9 39q18-20 33-6q-8 20-33 6z"/>
+ <path d="M1230 69q-22-23-5-39q9 18 5 39q18-18 30-3q-9 18-30 3z"/>
+ <path d="M1095 147q-24-19-8-34q8 15 8 34q16-17 28-4q-8 17-28 4z"/>
 </g>
-<g transform="translate(1050 72)" fill="none" stroke="#d0ad7e" stroke-width="1.7" opacity=".85">
- <path d="M0 90C-20 50-3 8 37-12c15 44 2 82-37 102Z"/>
- <path d="M0 90 37-12"/>
- <path d="M-5 63 20 47M4 37 29 21"/>
- <path d="M48 137c-10-30 4-57 32-70 10 31-2 58-32 70Z"/>
- <path d="m48 137 32-70"/>
-</g>
-<text x="92" y="356" fill="#b9c3ae" font-family="Arial,sans-serif" font-size="11" letter-spacing="3">BATATAIS · SP · BRASIL</text>
-<text x="1108" y="356" fill="#b9c3ae" font-family="Arial,sans-serif" font-size="11" text-anchor="end" letter-spacing="2">EST. 2026</text>
+<g fill="#d9bc91" opacity=".75"><circle cx="870" cy="85" r="2"/><circle cx="920" cy="152" r="1.5"/><circle cx="1080" cy="220" r="2"/><circle cx="740" cy="112" r="1.5"/><circle cx="1150" cy="185" r="1.5"/></g>
+<rect width="1280" height="390" rx="24" fill="url(#grain)"/>
+<path d="M78 76h46" stroke="#c18c5d" stroke-width="3"/>
+<text x="78" y="125" fill="#d5b487" font-family="Arial,sans-serif" font-size="15" letter-spacing="5">PORTFÓLIO • DESENVOLVIMENTO WEB</text>
+<text x="74" y="205" fill="#f2eadc" font-family="Georgia,serif" font-size="66" font-weight="bold" letter-spacing="-2">João Paulo</text>
+<text x="80" y="245" fill="#d9d3c5" font-family="Arial,sans-serif" font-size="20" letter-spacing="1.2">Código com propósito. Interfaces com identidade.</text>
+<path d="M80 278h290" stroke="#b77d4f" stroke-width="2"/>
+<text x="80" y="316" fill="#c5c0ad" font-family="Arial,sans-serif" font-size="14" letter-spacing="3">ESTUDANTE • FREELANCER • ENTUSIASTA LINUX</text>
+<text x="1190" y="355" text-anchor="end" fill="#e0c49b" font-family="Arial,sans-serif" font-size="11" letter-spacing="3">EST. 2026</text>
 </svg>
